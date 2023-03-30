@@ -23,6 +23,14 @@ public class PlayerLife : MonoBehaviour
         {
             Die();
         }
+        if (collision.gameObject.CompareTag("MovingTerrain"))
+        {
+        MovingTerrain movingTerrain = collision.gameObject.GetComponent<MovingTerrain>();
+        if (movingTerrain != null)
+        {
+            movingTerrain.MoveDown();
+        }
+        }
     }
 
     private void Die()

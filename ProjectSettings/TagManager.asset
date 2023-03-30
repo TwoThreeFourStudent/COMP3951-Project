@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Melon
   - Trap
+  - MovingTerrain
   layers:
   - Default
   - TransparentFX
