@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "286216496520",
+    "firebase_url": "https://notamemorygame-default-rtdb.firebaseio.com",
+    "project_id": "notamemorygame",
+    "storage_bucket": "notamemorygame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286216496520:android:a666698380840b61fa063d",
+        "android_client_info": {
+          "package_name": "com.CSTLOoters.NotAMemoryGame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286216496520-kjc76asi8duq0ht6h5tud9gpvnu95oja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDISJxffTmgKK5l3XWxcJ9kxaAAAcomvQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286216496520-kjc76asi8duq0ht6h5tud9gpvnu95oja.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "286216496520-t791cb4hot03aubfimubg9idml6lf634.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DefaultCompany.2DProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
