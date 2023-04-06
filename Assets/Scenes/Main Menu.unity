@@ -855,7 +855,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1435409379}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1435409381}
+        m_TargetAssemblyTypeName: Exit, Assembly-CSharp
+        m_MethodName: button_exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1435409379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1185,6 +1197,7 @@ GameObject:
   - component: {fileID: 1908901840}
   - component: {fileID: 1908901839}
   - component: {fileID: 1908901838}
+  - component: {fileID: 1908901842}
   m_Layer: 0
   m_Name: Button (Legacy) (1)
   m_TagString: Untagged
@@ -1271,7 +1284,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1908901840}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1908901842}
+        m_TargetAssemblyTypeName: LevelSelector, Assembly-CSharp
+        m_MethodName: SceneOpener
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1908901840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1310,6 +1335,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908901836}
   m_CullTransparentMesh: 1
+--- !u!114 &1908901842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908901836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ced7f95896c9b9409b25a36e27c080e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: LeaderBoard
 --- !u!1 &2001808312
 GameObject:
   m_ObjectHideFlags: 0
